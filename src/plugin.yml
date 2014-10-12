@@ -1,0 +1,8 @@
+name: ServerSigns
+author: xIDuck
+version: 1.0
+main: com.xiduck.serversigns.StatusSigns
+commands:
+  statussigns:
+    usage: /statussigns <name> <ip> <port>
+    aliases: [ss, serversigns]
