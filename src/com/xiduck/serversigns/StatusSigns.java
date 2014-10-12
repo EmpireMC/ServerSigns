@@ -103,7 +103,7 @@ public class StatusSigns extends JavaPlugin implements Listener {
     @Override
     @SuppressWarnings("depreciation")
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        if (sender.hasPermission("matrix.rank.developer")) {
+        if (sender.hasPermission("serversigns.admin")) {
             if (!(sender instanceof Player)) {
                 sender.sendMessage(ChatColor.RED + "Only players can create status signs.");
                 return true;
